@@ -1,0 +1,38 @@
+1.<html> is a tag where Everything is included
+2.<body> is a tag where the Everything visible is Coded
+3.**<head> is a tag where the Everything about website and other linkings are here
+    <link> is used to link other pages of css and javascripts , favcions etc..
+4.<title> the tag defines title the page
+5.<h1> to <h6> are headings tags with different sizes
+6.<p> is a tag where paragraphes are written
+7.<hr> is a tag of horizontal line
+8.<br> tag adds a line break
+9.Read html entities
+10.<em> inline element emphasis
+11.<strong> inline element makes text a little bolder
+12.<abbr> used for representing abbrivations
+13.tooltip is used to set a title for a page
+14.<address> tag is used for keeping address in good way
+**15.<!--  -->comments on the html
+**16.Lists
+  <ol> ordered List
+  <ul> unordered List
+  <dl> description List
+  <li> List item
+  <dt> Description term
+  <dd> Description details
+**17.Achor tags<a>
+    
+    <a> is used to make a link by text
+    There are two types of references
+    1.Absolute reference : reference from web or Not from our sources
+    2.Relative reference : reference from our device
+    3.Internal reference : links to different parts of the same web page
+    **Attributes of Achor tag
+    1.** href is attribute used to link the link to the text in between the achor tag
+    2.** target decides where to open the link
+    3.download is used to download the file
+    4.emailto: is used to mail **"should be used inside the href it self"
+    5.tel: is used to provide telephone **"should be used inside the href it self"
+18.<section> used to keep code in like together or in like a box
+19.<nav> used show to the Navigation ** Not much to look in into
