@@ -57,3 +57,17 @@
     <summary>
     <time>
     <mark>
+25.**Tables
+   <table> is the tag used to create a table
+   <tr> tag is used a create a row for tye table
+   <td> tag is used to cerate column in the table
+   <th> tag is used a heading int tghe table
+   *Semantic tags
+   <thead> is used arrange the head of the table
+   <tbody> is used arrange the body of the table
+   <tfoot> is used arrange the foot of the table
+   <caption> tag is Used to give caption to the table
+   *Attributes
+   colspan is used to combine the columns
+   rowspan is used to combine the rows in the table
+   scope is referenced to wt way the data is defined
