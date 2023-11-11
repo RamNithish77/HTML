@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,th,tr,td,caption{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <!--initialization of the table-->
+    <table>
+        <caption>Anime collections</caption>
+        <thead>
+        <tr>
+            <th scope="row">Anime Name</th>
+            <th scope="row">Anime collections</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Naruto</td>
+            <td rowspan="2">2.8 Billion</td>
+        </tr>
+        <tr>
+            <td>Baruto</td>
+        </tr>
+        <tr>
+            <td>Demon slayer</td>
+            <td>900 Million</td>
+        </tr>
+        <tr>
+            <td>Aot</td>
+            <td>1.8 Billion</td>
+        </tr> <tr>
+            <td>Dragon ball</td>
+            <td>7 Billion</td>
+        </tr> <tr>
+            <td>One piece</td>
+            <td>4.9 Billion</td>
+        </tr>
+    </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="2">&copy;Anime is love </td>
+        </tr>
+    </tfoot>
+    </table>
+</body>
+</html>
