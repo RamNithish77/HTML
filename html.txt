@@ -46,3 +46,14 @@
 21.<figure> tag is used to place image in it .
 22.<figcaption> tag is used add a cqption to the image.
 23.<code> is inline element used to write code inside of it.
+24.Semantic tags
+    <header>
+    <main>
+    <footer>
+    <section>
+    <article>
+    <aside>
+    <details>
+    <summary>
+    <time>
+    <mark>
