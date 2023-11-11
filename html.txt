@@ -32,7 +32,17 @@
     1.** href is attribute used to link the link to the text in between the achor tag
     2.** target decides where to open the link
     3.download is used to download the file
+
     4.emailto: is used to mail **"should be used inside the href it self"
     5.tel: is used to provide telephone **"should be used inside the href it self"
 18.<section> used to keep code in like together or in like a box
 19.<nav> used show to the Navigation ** Not much to look in into
+**20 image tag <img> Used to place an image in our page
+    **img Attributes
+    **src is attribute used for get source link of the image
+    **alt is attribute is used to represent a text or something that provided by owner if the image is not loaded
+    height,width Attributes are used to set height and width or the image
+    loading attribute decides when to load the image if they are under the fold
+21.<figure> tag is used to place image in it .
+22.<figcaption> tag is used add a cqption to the image.
+23.<code> is inline element used to write code inside of it.
