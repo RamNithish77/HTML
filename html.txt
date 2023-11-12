@@ -71,3 +71,43 @@
    colspan is used to combine the columns
    rowspan is used to combine the rows in the table
    scope is referenced to wt way the data is defined
+26.**Forms
+     Forms play a key role in tkainf info from the client side
+     <label> tag is used to create a label for the input of a form elemnet
+     <input> take an input from the user
+     <select> create a Dropdown with option
+     <option> display option to the user
+     <optgroup> groups the options in the dropdown
+     <datalist> is also used to create a dropdown in an efficient way
+     <fieldset>wrap the inside content
+     <legend>labels the set or field set
+     <button>used create a button
+     **Attributes
+     **type attribute decides what is the input
+     1."text" takes text as the input
+     2."password" takes password as a input
+     3."tel" take a phone number as a input
+     4."number" takes Number as input
+        "min" is used step min value for the number
+        "max" is used to set max value of the number input
+        "step" is used to set difference
+        "value" is pridefined value on input box
+        "pattern" is used to a pattern to enter the input
+    5.select, option tags create a Dropdown
+       "multiple" is used is select multiple options
+       "size" display dropdownwith provided size
+       selected keeps on display in the input box
+       value is from server side
+     6."radiobox" is used to select one option from multiple options
+     7."checkbox" is used to select multiple options from option
+     8."textarea" is used type text more like a passage
+     9."submit" is used to submit the form
+     10."reset" is used to set the form 
+       rols,cols set is the text area
+     "for" is used to know the use of label
+     "name" is used get the usage of the input from the client side
+     "id" uk wt is id
+     "placeholder" is used to set something in the input box as an example
+     "autocomplete" is used save the data and recommened them again
+     "required" is used to say to the user that info is definetly needed to enter 
+     "autofocus" is used to autofocus the input box "can be used only once in the page
