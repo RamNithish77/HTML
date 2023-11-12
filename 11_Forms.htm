@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="https://httpbin.org/get" method="get">
+        <div>
+        <label for="Fristname">Frist Name:</label>
+        <input type="text" name="Fristname" id="Fristname" placeholder="Ram" autocomplete="on" required>
+    </div>
+    <br>
+    <div>
+        <label for="LastName">Last Name:</label>
+        <input type="text" name="Last Name" id="LastName" placeholder="Reddy">
+    </div>
+    <br>
+    <div>
+        <label for="phone">phone :</label>
+        <input type="tel" name="phone" id="phone" placeholder="00000-00000">
+    </div>
+    <br>
+    <div>
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <br>
+    <div>
+        <label for="Number">Age:</label>
+        <input type="number" name="age" id="Number" Max="100" min="18" step="1" value="18">
+    </div>
+    <br>
+    <!-- <div>
+        <label for="phone">Select the City:</label>
+        <select name="Cities" id="Cities" >
+            <optgroup label="Telanagana">
+            <option value="hyd">Hyderabad</option>
+            <option value="War" selected >Warangal</option>
+            <option value="Kar">Karimnagar</option>
+            <option value="Adi">Adilabad</option>
+            <option value="kha">Khammam</option>
+            <option value="ran">RangaReddy</option>
+        </optgroup>
+            <optgroup label="Andrapradesh">
+            <option value="am">Amaravathi</option>
+            <option value="va">Vizag</option>
+            <option value="guntur">Guntur</option>
+            <option value="Thirupathi">Thirupathi</option>
+            <option value="Ra">Neluur</option>
+        </optgroup>
+        <br> -->
+    <div>
+        <label for="Cities">Select the City:</label>
+        <input type="text" id="Cities" list="hi">
+        <datalist id="hi">            
+            <option >Hyderabad</option>
+            <option selected >Warangal</option>
+            <option>Karimnagar</option>
+            <option>Adilabad</option>
+            <option>Khammam</option>
+            <option>RangaReddy</option>
+            <option>Amaravathi</option>
+            <option>Vizag</option>
+            <option>Guntur</option>
+            <option>Thirupathi</option>
+            <option>Neluur</option>
+            </datalist>
+    </div>
+    <br>
+        <fieldset>
+        <input type="radio" name="anime" id="Naruto">
+        <label for="Naruto">Naruto</label>
+        <input type="radio" name="anime" id="DragonBall">
+        <label for="DragonBall">DragonBall</label>
+        <input type="radio" name="anime" id="Onepiece">
+        <label for="Onepiece">Onepiece</label>
+    </fieldset>
+    <br>
+    <div>
+        <fieldset>
+        <input type="checkbox" name="anime" id="anime1">
+        <label for="anime1">Naruto</label>
+        <input type="checkbox" name="anime" id="anime2">
+        <label for="anime2">Sasuke</label>
+        <input type="checkbox" name="anime" id="anime3">
+        <label for="anime3">Kakashi</label>
+    </fieldset>
+    </div>
+    <br>
+    <label for="textArea">Enter ur thougths:</label>
+    <br>
+    <textarea name="texrArea" id="textArea" cols="30" rows="10" placeholder="thougths place...."></textarea>
+    </form>
+    <button type="submit" formaction=
+    "https://httpbin.org/get"    formmethod="post">submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>
